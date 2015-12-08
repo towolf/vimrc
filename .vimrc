@@ -80,18 +80,15 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 " original repos on github
-" Plugin 'MatlabFilesEdition'
 Plugin 'jwhitley/vim-matchit'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'bling/vim-airline'
 Plugin 'tpope/vim-git'
-" Plugin 'tpope/vim-liquid'
 Plugin 'tpope/vim-rsi'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-repeat'
 Plugin 'tpope/vim-unimpaired'
 Plugin 'tpope/vim-markdown'
-" Plugin 'tpope/vim-fugitive'
 Plugin 'tommcdo/vim-exchange'
 Plugin 'scrooloose/syntastic'
 Plugin 'jlanzarotta/bufexplorer'
@@ -101,28 +98,29 @@ Plugin 'ervandew/screen'
 Plugin 'ervandew/supertab'
 Plugin 'tomtom/tcomment_vim'
 Plugin 'bogado/file-line'
-" Plugin 'godlygeek/tabular'
 Plugin 'junegunn/vim-easy-align'
 Plugin 'sjl/gundo.vim'
 Plugin 'vim-pandoc/vim-pandoc-syntax'
-"Plugin 'vim-pandoc/vim-pantondoc'
-" Plugin 'ap/vim-css-color'
-" Plugin 'pangloss/vim-javascript'
 Plugin 'coderifous/textobj-word-column.vim'
 Plugin 'terryma/vim-expand-region'
 Plugin 'evanmiller/nginx-vim-syntax.git'
-" vim-scripts repos
-"    Plugin 'L9'
-"    Plugin 'FuzzyFinder'
 Plugin 'netrw.vim'
 Plugin 'Mark--Karkat'
 "Gameforge
 Plugin 'pearofducks/ansible-vim'
+
+" Plugin 'MatlabFilesEdition'
+" Plugin 'tpope/vim-liquid'
+" Plugin 'tpope/vim-fugitive'
+" Plugin 'godlygeek/tabular'
+" Plugin 'vim-pandoc/vim-pantondoc'
+" Plugin 'ap/vim-css-color'
+" Plugin 'pangloss/vim-javascript'
+" vim-scripts repos
+"    Plugin 'L9'
+"    Plugin 'FuzzyFinder'
 " Plugin 'jamessan/vim-gnupg'
-" non github repos
-"    Plugin 'git://git.wincent.com/command-t.git'
-"Plugin 'git://repo.or.cz/vcscommand'
-" ...
+" Plugin 'git://repo.or.cz/vcscommand'
 
 call vundle#end()            " required
 filetype plugin indent on     " required!
@@ -134,8 +132,6 @@ filetype plugin indent on     " required!
 " see :h vundle for more details or wiki for FAQ
 " NOTE: comments after Plugin command are not allowed..
 "
-
-
 cmap w!! %!sudo tee > /dev/null %
 
 "nnoremap <BS> <Esc>1z=<CR>
